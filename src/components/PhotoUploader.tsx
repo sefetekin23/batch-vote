@@ -207,11 +207,11 @@ export default function PhotoUploader({
                                 ? "Drop your photos here"
                                 : "Drag & drop photos"}
                         </p>
-                        <p className="text-sm text-gray-500">
+                        <p className="text-sm text-gray-700">
                             or click to browse
                         </p>
                     </div>
-                    <p className="text-xs text-gray-400">
+                    <p className="text-xs text-gray-700">
                         JPG, PNG, WebP up to 10MB each
                     </p>
                 </div>
