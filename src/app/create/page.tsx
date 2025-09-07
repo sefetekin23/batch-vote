@@ -80,7 +80,7 @@ export default function CreateBatchPage() {
                     <h1 className="text-3xl font-bold text-gray-900 mb-2">
                         Create Batch
                     </h1>
-                    <p className="text-gray-600">
+                    <p className="text-gray-900">
                         Upload photos and get a shareable voting link
                     </p>
                 </div>
@@ -91,7 +91,7 @@ export default function CreateBatchPage() {
                             <div>
                                 <label
                                     htmlFor="title"
-                                    className="block text-sm font-medium text-gray-700 mb-2"
+                                    className="block text-sm font-medium text-gray-900 mb-2"
                                 >
                                     Batch Title (optional)
                                 </label>
@@ -106,14 +106,14 @@ export default function CreateBatchPage() {
                                         })
                                     }
                                     placeholder="e.g., Weekend Trip Photos"
-                                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 bg-white"
                                 />
                             </div>
 
                             <div>
                                 <label
                                     htmlFor="maxSelect"
-                                    className="block text-sm font-medium text-gray-700 mb-2"
+                                    className="block text-sm font-medium text-gray-900 mb-2"
                                 >
                                     Maximum selections
                                 </label>
@@ -130,9 +130,9 @@ export default function CreateBatchPage() {
                                     }
                                     min="1"
                                     max="100"
-                                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 bg-white"
                                 />
-                                <p className="text-sm text-gray-500 mt-1">
+                                <p className="text-sm text-gray-700 mt-1">
                                     How many photos can be selected in the final
                                     results
                                 </p>
@@ -179,7 +179,7 @@ export default function CreateBatchPage() {
                                     type="text"
                                     value={shareUrl}
                                     readOnly
-                                    className="flex-1 px-3 py-2 border border-green-300 rounded bg-white text-sm"
+                                    className="flex-1 px-3 py-2 border border-green-300 rounded bg-white text-gray-900 text-sm"
                                 />
                                 <button
                                     onClick={handleCopyLink}
