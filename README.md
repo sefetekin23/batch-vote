@@ -2,6 +2,8 @@
 
 A web application for photo voting where users can upload photos, share a link for others to vote, and see live ranked results.
 
+🚀 **Now deployed on Vercel!**
+
 ## Features
 
 -   **Creator Flow**: Upload photos → create batch → get shareable link → view live results
